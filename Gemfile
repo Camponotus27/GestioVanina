@@ -11,9 +11,15 @@ gem 'rails', '~> 5.1.3'
 
 gem 'pg', '~> 0.18'
 
+gem 'bootstrap', '~> 4.0.0'
+
+gem 'jquery-rails'
+
 gem 'rails_12factor', '0.0.2'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
+
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
