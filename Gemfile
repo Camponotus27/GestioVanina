@@ -15,7 +15,7 @@ gem 'bootstrap', '~> 4.0.0'
 
 gem 'jquery-rails'
 
-gem 'rails_12factor', '0.0.2'
+gem 'rails_12factor'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 
