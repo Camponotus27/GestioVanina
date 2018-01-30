@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Importe:</strong>
+  <%= @prestamo.importe %>
+</p>
+
+<p>
+  <strong>Interes:</strong>
+  <%= @prestamo.interes %>
+</p>
+
+<p>
+  <strong>Tipo pago:</strong>
+  <%= @prestamo.tipo_pago %>
+</p>
+
+<p>
+  <strong>Subtipo pago:</strong>
+  <%= @prestamo.subtipo_pago %>
+</p>
+
+<p>
+  <strong>Cuotas:</strong>
+  <%= @prestamo.cuotas %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @prestamo.total %>
+</p>
+
+<%= link_to 'Edit', edit_prestamo_path(@prestamo) %> |
+<%= link_to 'Back', prestamos_path %>

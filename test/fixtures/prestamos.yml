@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  importe: 1
+  interes: 1
+  tipo_pago: MyString
+  subtipo_pago: MyString
+  cuotas: 1
+  total: 1
+
+two:
+  importe: 1
+  interes: 1
+  tipo_pago: MyString
+  subtipo_pago: MyString
+  cuotas: 1
+  total: 1
