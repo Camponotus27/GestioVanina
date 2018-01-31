@@ -1,4 +1,7 @@
-<p id="notice"><%= notice %></p>
+<div class="margen_pagina">
+  
+  <p id="notice"><%= notice %></p>
+
 
 
 <div style="margin: 10 xp"> <h1>Cliente</h1> </div> 
@@ -31,4 +34,20 @@
 
 <br>
 
-<%= link_to 'Nuevo', new_persona_path , :method => :get , class: "w3-button w3-amber"  %>
+<div class="w3-row-padding w3-black " style="padding-top: 20px">
+
+  <div class="w3-half" style="padding-right: 10px">
+    <%= button_to 'Salir', root_path , :method => :get , class: "w3-green  w3-round-large w3-btn caja_boton"  %>
+  </div>
+  
+  <div class="w3-half">
+    <%= button_to 'Nuevo', new_persona_path , :method => :get , class: "w3-green  w3-round-large w3-btn caja_boton"  %>
+  </div>
+</div>
+
+
+
+
+
+</div>
+
